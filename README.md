@@ -1,5 +1,7 @@
 # Image-Paint
-We take an image and reproduce it in Python so that it loks like it has been painted. This is done with two different approaches, utilising the PIL Image library and by manipulating Numpy arrays.
+We take an image in Python and reproduce such that it looks like it has been painted. This is acheived with two different approaches, one utilising the PIL Image library and the other by the manipulation of Numpy arrays.
+
+![Flower](Images/demo.gif)
 
 
 
