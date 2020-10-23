@@ -4,7 +4,7 @@ We take an image in Python and reproduce such that it looks like it has been pai
 # Example Outputs
 ![Flower](Images/Image/image_1_new_2)
 ![Train](Images/Image/image_2_new_2)
-![Trees](Images/Image/image_13_new_2)
+![Trees](Images/Image/image_3_new_2)
 
 
 
