@@ -1,11 +1,14 @@
 from paint_image_pil import paint_image as paint_pil
 from paint_image_np import paint_image as paint_np
 import os
+import numpy as np
+import time
 
 
 # recreates given images in the style of a painting
 def paint_multiple(image_name, method, quality, random_rotate, random_order, show, compare, save, track,
                    background_colour, border_size, border_colour, watermark):
+    t0 = time.time()  # starts timer
     image_formats = ['.jpg', '.png', '.gif', '.bmp', '.eps']  # compatible image formats
     file_number = 0
     while True:
@@ -27,6 +30,8 @@ def paint_multiple(image_name, method, quality, random_rotate, random_order, sho
                 break
         if not file_found:  # if no file found
             break  # break while loop
+    t1 = time.time()  # stops timer
+    print('Time taken:', str(np.round(t1 - t0, 2)) + 's')  # time taken
 
 
 if __name__ == '__main__':
