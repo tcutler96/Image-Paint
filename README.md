@@ -1,6 +1,7 @@
 # Image Paint
 We take an image in Python and reproduce such that it looks like it has been painted. This is achieved with two different approaches, one utilising the PIL Image library and the other by the manipulation of Numpy arrays. Contains many image options, including saving the output, and the ability to process entire folders of images in one go.
 
+## Examples
 ![Flower](Images/Image/image_1_new_2.jpg)
 
 ![Train](Images/Image/image_2_new_2.jpg)
